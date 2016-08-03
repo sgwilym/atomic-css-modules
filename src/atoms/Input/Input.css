@@ -1,0 +1,9 @@
+.input {
+  cursor: text;
+  border: 0;
+  composes: uiText from '../../styles/typography.css';
+  composes: tertiaryBackground from '../../styles/colors.css';
+  composes: midVerticalPadding from '../../styles/layout.css';
+}
+
+.input:focus { outline : 0}

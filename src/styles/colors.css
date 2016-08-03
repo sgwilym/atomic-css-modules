@@ -1,0 +1,33 @@
+/* Some basic color constants */
+
+@value primary: #004278;
+@value secondary: #90c1eb;
+@value tertiary: #f4f3eb;
+
+/* Background color atoms */
+
+.primaryBackground {
+  background-color: primary;
+}
+
+.secondaryBackground {
+  background-color: secondary;
+}
+
+.tertiaryBackground {
+  background-color: tertiary;
+}
+
+/* Text color atoms */
+
+.primaryColor {
+  color: primary;
+}
+
+.secondaryColor {
+  color: secondary;
+}
+
+.tertiaryColor {
+  color: tertiary;
+}

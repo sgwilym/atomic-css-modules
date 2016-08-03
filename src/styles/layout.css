@@ -1,0 +1,43 @@
+/* Layout atoms */
+
+@value small: 0.5em;
+@value medium: 1.5em;
+@value large: 3em;
+
+.smallMargin {
+  margin: small;
+};
+
+.midMargin {
+  margin: medium;
+}
+
+.bigMargin {
+  margin: large;
+}
+
+.smallPadding {
+  padding: small;
+}
+
+.midPadding {
+  padding: medium;
+}
+
+.bigPadding {
+  padding: large
+}
+
+/* Can go as specific as you want */
+
+.smallHorizontalMargin {
+  margin: 0 small;
+}
+
+.smallVerticalMargin {
+  margin: small 0;
+}
+
+.midVerticalPadding {
+  padding: medium small;
+}

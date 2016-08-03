@@ -1,0 +1,40 @@
+/* Some text size atoms */
+
+.smallText {
+  font-size: 1em;
+}
+
+.midText {
+  font-size: 1.5em;
+}
+
+/* Some font style atoms */
+
+.serif {
+  font-family:'Georgia, Times New Roman'
+}
+
+.sansSerif {
+  font-family: 'Verdana, Trebuchet'
+}
+
+.deadlySerious {
+  font-family: 'Impact';
+}
+
+/* Text transforms */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Compose style atoms into another atom */
+
+.uiText {
+  composes: midText deadlySerious uppercase;
+}
+
+.importantUiText {
+  composes: uiText;
+  composes: primaryColor from './colors.css';
+}

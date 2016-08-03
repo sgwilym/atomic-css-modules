@@ -1,0 +1,14 @@
+.button {
+  cursor: pointer;
+  border: 0;
+  position: relative;
+  composes: uiText from '../../styles/typography.css';
+  composes: tertiaryColor primaryBackground from '../../styles/colors.css';
+  composes: smallHorizontalMargin midPadding from '../../styles/layout.css';
+}
+
+.button:active {
+  top: 2px;
+}
+
+.button:focus { outline: 0 }

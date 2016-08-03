@@ -1,0 +1,5 @@
+
+.label {
+  composes: importantUiText from '../../styles/typography.css';
+  composes: smallVerticalMargin from '../../styles/layout.css';
+}
